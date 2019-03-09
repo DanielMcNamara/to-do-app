@@ -18,11 +18,21 @@ function onReady() {
     // set the input's type to checkbox
     checkbox.type = "checkbox";
 
+    let deleteBTN = document.createElement('button');
+    deleteBTN.textContent = "Delete";
+
+    deleteBTN.addEventListener('click', function(event){
+      toDoList.removeChild(this.parentElement);
+    })
+
     // set the title
     newLi.textContent = title;
 
     // attach the checkbox to the li
     newLi.appendChild(checkbox);
+
+    // attach delete button to the li
+    newLi.appendChild(deleteBTN);
 
     // attach the li to the ul
     toDoList.appendChild(newLi);

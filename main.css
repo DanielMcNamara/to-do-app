@@ -1,0 +1,25 @@
+body {
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
+h1 {
+  color: hsla(0, 1%, 26%, 1);
+  font-weight: bold;
+  text-align: center;
+}
+
+label {
+  color: hsla(0, 1%, 26%, 0.9);
+  font-weight:lighter;
+}
+
+form {
+  padding-right: 10rem;
+  color: hsla(0, 1%, 26%, 0.7);
+}
+
+ul {
+  color: hsla(0, 1%, 26%, 0.9);
+  font-weight: bold;
+}
